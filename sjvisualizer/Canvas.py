@@ -196,7 +196,6 @@ class canvas():
             fourc = cv2.VideoWriter_fourcc(*"mp4v")
             capture_video = cv2.VideoWriter(file_name, fourc, fps, (width, height))
 
-        self._add_sj_logo()
 
         # main loop of the animation
         for i, date_time in enumerate(df.index):
